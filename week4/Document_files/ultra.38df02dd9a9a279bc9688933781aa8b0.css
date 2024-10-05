@@ -1,0 +1,10 @@
+/* Hide the X button on the lefthand side when the IF is active */
+.ally-instructor-feedback-active .bb-offcanvas-panel-wrap .bb-close {
+    display: none;
+}
+
+/* Hide the help icon in Ultra on the bottom right */
+body.ally-accessible-versions-active bb-pagehelp,
+body.ally-instructor-feedback-active bb-pagehelp {
+    display: none;
+}
